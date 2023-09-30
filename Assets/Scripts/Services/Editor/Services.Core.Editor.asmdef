@@ -1,0 +1,18 @@
+{
+    "name": "Services.Core.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6d9be6eaa069eee4fb1da76f08e5cebe"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

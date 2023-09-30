@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 750802c5dba284f4fa99929e0fc38fd1, type: 3}
+  m_Name: Lazer Weapon Parameters
+  m_EditorClassIdentifier: 
+  Type: 2
+  EntityType: Asteroids.ECS.Entities.LazerBulletEntity, Asteroids.ECS, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  MaxBullets: 4
+  FireCooldown: 2
+  RechargeCooldown: 5
+  BulletPrefab: {fileID: 5340239520898595291, guid: 28c9a493edbf85e4183eaaa2063a56a0, type: 3}
+  BulletSpeed: 0
+  BulletLifeTime: 0.3
+  Damage: 1

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01fb7ec6c7a37f419967a430396a7bb, type: 3}
+  m_Name: PlayerSpawn Parameters
+  m_EditorClassIdentifier: 
+  ShipPrefab: {fileID: 3180532816396721459, guid: 82ddd7618bee75948af4c7f27fc4f820, type: 3}
+  DeathEffectPrefab: {fileID: -1637415513581216764, guid: 525f8c7c701135d4ba49f629ff75acd6, type: 3}
+  Health: 1
+  Weapons:
+  - {fileID: 11400000, guid: 0f45cef4da2500849973bdad9da7ece3, type: 2}
+  - {fileID: 11400000, guid: 5d6c3fd77082d7a4e82a656f3b3d1674, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 027a2ebaf53a40942be40e2ad761bfe0, type: 3}
+  m_Name: AlienSpawn Parameters
+  m_EditorClassIdentifier: 
+  ShipPrefab: {fileID: 4829093667710293371, guid: 61e993d5afa65c14db427f61cb1679df, type: 3}
+  DeathEffectPrefab: {fileID: -3690391269303288702, guid: f7611b334b625344887b62b11fc95b5c, type: 3}
+  SpawnCooldown:
+    Min: 10
+    Max: 15
+  SpawnCount:
+    Min: 1
+    Max: 2
+  MaximumSimultaneousCount: 2
+  SafeSpawnRadiusAroundPlayer: 100
+  Health:
+    Min: 1
+    Max: 1
+  Damage:
+    Min: 1
+    Max: 1
+  Score: 5

@@ -1,0 +1,20 @@
+{
+    "name": "Asteroids.Services.Implementations.UnityInputSystemService",
+    "rootNamespace": "",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:71bcd2ba5a9f51c4d9f09962305f6219",
+        "GUID:6d9be6eaa069eee4fb1da76f08e5cebe",
+        "GUID:64863ea43776c1d438bb27c2f10dd86f",
+        "GUID:609973b5c2ef1b44291a4c316068686e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

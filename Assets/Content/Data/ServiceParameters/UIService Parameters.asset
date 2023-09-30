@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884dbc1505cb9e64d97d65b3afe3f1cf, type: 3}
+  m_Name: UIService Parameters
+  m_EditorClassIdentifier: 
+  RootPrefab: {fileID: 7624192582800869702, guid: bc41f53af5242eb49a27e3c47843ccd0, type: 3}
+  HudElementsPrefabs:
+  - {fileID: -6020339136397394137, guid: 6f3ad418910251e40a703bbdf056c42e, type: 3}
+  - {fileID: 7141808708857858256, guid: 863b382b318977e4b95d87d846079515, type: 3}
+  - {fileID: 8989393486919563914, guid: bca8b9460c9828748b8ab0b22083e973, type: 3}
+  PlayerDeathDialogPrefab: {fileID: -6270575713418822268, guid: f7a212149a4ad1049a3cb393e32d9e40, type: 3}

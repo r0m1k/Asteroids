@@ -1,0 +1,18 @@
+{
+    "name": "Infrastructure.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:71bcd2ba5a9f51c4d9f09962305f6219"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Asteroids.ECS.Views",
+    "rootNamespace": "",
+    "references": [
+        "GUID:078005052f0264c49bb5d5c296d35b77"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

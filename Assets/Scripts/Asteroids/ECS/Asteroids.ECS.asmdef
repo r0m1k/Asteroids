@@ -1,0 +1,22 @@
+{
+    "name": "Asteroids.ECS",
+    "rootNamespace": "",
+    "references": [
+        "GUID:71bcd2ba5a9f51c4d9f09962305f6219",
+        "GUID:6d9be6eaa069eee4fb1da76f08e5cebe",
+        "GUID:078005052f0264c49bb5d5c296d35b77",
+        "GUID:64863ea43776c1d438bb27c2f10dd86f",
+        "GUID:609973b5c2ef1b44291a4c316068686e",
+        "GUID:d7d993478870add4a836443f84ab983a",
+        "GUID:542ad94d586145443b5e2f2c77921ff7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

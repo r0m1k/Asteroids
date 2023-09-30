@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a634bb30b4566854cb009db37aaba1e7, type: 3}
+  m_Name: AsteroidSpawn Parameters
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 8240663000877091717, guid: 091d6f121c5db7c45b1322da590cffc0, type: 3}
+  DeathEffectPrefab: {fileID: -3690391269303288702, guid: 8d3093c5305bea74dbe11e4c31f700ce, type: 3}
+  SpawnCooldown:
+    Min: 2
+    Max: 4
+  SpawnCount:
+    Min: 1
+    Max: 2
+  MaximumSimultaneousCount: 15
+  SafeSpawnRadiusAroundPlayer: 70
+  Speed:
+    Min: 49.3763
+    Max: 139.43172
+  RotationDegreeSpeed:
+    Min: 77
+    Max: 220
+  Health:
+    Min: 1
+    Max: 1
+  Damage:
+    Min: 1
+    Max: 1
+  Score: 1

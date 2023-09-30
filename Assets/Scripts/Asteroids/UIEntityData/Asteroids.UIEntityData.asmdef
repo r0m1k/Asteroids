@@ -1,0 +1,17 @@
+{
+    "name": "Asteroids.EntityUIData",
+    "rootNamespace": "",
+    "references": [
+        "GUID:078005052f0264c49bb5d5c296d35b77",
+        "GUID:64863ea43776c1d438bb27c2f10dd86f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b58775b36dea4334b9fa6796339a4683, type: 3}
+  m_Name: DebrisSpawn Parameters
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 3331287602118912851, guid: dc9f1e6332f4c274d9c8f18780d24108, type: 3}
+  DeathEffectPrefab: {fileID: -3690391269303288702, guid: 2eb4c5943eb642d49a78c7201decc415, type: 3}
+  SpeedModulation:
+    Min: 1.5896919
+    Max: 2.1900551
+  SpeedDirectionModulation: 180.9
+  RotationDegreeSpeedModulation:
+    Min: 1.3733888
+    Max: 1.9358021
+  RandomizeRotationDirection: 1
+  Health:
+    Min: 1
+    Max: 1
+  Damage:
+    Min: 1
+    Max: 1
+  Score: 2

@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12882e9514e6930419d0c7255a30ddc8, type: 3}
+  m_Name: Services Configuration
+  m_EditorClassIdentifier: 
+  Services:
+  - TypeName: Asteroids.Services.PersistentDataService, Asteroids.Services.Implementations,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ConstructorParameters: []
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.IPersistentDataService,
+        Asteroids.Services.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.Services.DataService_StaticClass, Asteroids.Services.Implementations,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ConstructorParameters:
+    - Type: 2
+      Object: {fileID: 11400000, guid: ba311604bbc2a9b4c8422471f1230c66, type: 2}
+      TypeAssemblyQualifiedName: Asteroids.Services.DataServiceParameters, Asteroids.Services.Implementations,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.IReadOnlyDataService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.IDataService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.Services.TimeService, Asteroids.Services.Implementations,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ConstructorParameters: []
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.ITimeService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.Services.RandomService, Asteroids.Services.Implementations,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ConstructorParameters:
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.ITimeService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.IRandomService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.Services.UnityGameObjectService, Asteroids.Services.Implementations,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ConstructorParameters: []
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.IUpdateService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.ICoroutineService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.Services.AssetService, Asteroids.Services.Implementations,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ConstructorParameters: []
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.IAssetService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.Services.ViewportService, Asteroids.Services.Implementations,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ConstructorParameters:
+    - Type: 2
+      Object: {fileID: 11400000, guid: b18d80c52d905f54ca82506862e25169, type: 2}
+      TypeAssemblyQualifiedName: Asteroids.Services.ViewportServiceParameters, Asteroids.Services.Implementations,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.IAssetService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.IViewportService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.Services.LoadScreenService, Asteroids.Services.Implementations,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ConstructorParameters:
+    - Type: 2
+      Object: {fileID: 11400000, guid: 6fe817b457d73fa448a114bbc488d8b1, type: 2}
+      TypeAssemblyQualifiedName: Asteroids.Services.LoadScreenServiceParameters,
+        Asteroids.Services.Implementations, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.IAssetService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.ILoadScreenService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.Services.UnityInputSystem.UnityInputSystemService, Asteroids.Services.Implementations.UnityInputSystemService,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ConstructorParameters: []
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.IInputService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.Services.UIService, Asteroids.Services.Implementations, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    ConstructorParameters:
+    - Type: 2
+      Object: {fileID: 11400000, guid: 929c67c6defdc6c44b4b567409798c64, type: 2}
+      TypeAssemblyQualifiedName: Asteroids.Services.UIServiceParameters, Asteroids.Services.Implementations,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.IAssetService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.IDataService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.IUIService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.Services.Generator.AsteroidGeometryGeneratorRoundedUVsService,
+      Asteroids.Services.Generator.Implementations, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    ConstructorParameters:
+    - Type: 2
+      Object: {fileID: 11400000, guid: b45f175c6260f184cafbd7b83434d182, type: 2}
+      TypeAssemblyQualifiedName: Asteroids.Services.Generator.AsteroidsGeneratorParameters,
+        Asteroids.Services.Generator.Implementations, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.IRandomService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.Generator.IAsteroidGeometryGeneratorService,
+        Asteroids.Services.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.Services.Generator.AsteroidVisualGeneratorService, Asteroids.Services.Generator.Implementations,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ConstructorParameters: []
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.Generator.IAsteroidVisualGeneratorService,
+        Asteroids.Services.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.Services.Generator.AsteroidGeneratorService, Asteroids.Services.Generator.Implementations,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ConstructorParameters:
+    - Type: 2
+      Object: {fileID: 11400000, guid: b45f175c6260f184cafbd7b83434d182, type: 2}
+      TypeAssemblyQualifiedName: Asteroids.Services.Generator.AsteroidsGeneratorParameters,
+        Asteroids.Services.Generator.Implementations, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.IRandomService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.Generator.IAsteroidGeometryGeneratorService,
+        Asteroids.Services.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.Generator.IAsteroidVisualGeneratorService,
+        Asteroids.Services.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.Generator.IAsteroidGeneratorService,
+        Asteroids.Services.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.ECS.Services.PlaneEntityUniqueIdGeneratorService, Asteroids.ECS,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ConstructorParameters: []
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.ECS.IEntityUniqueIdGeneratorService,
+        Asteroids.Services.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.ECS.Services.EntityFactoryService, Asteroids.ECS, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    ConstructorParameters:
+    - Type: 2
+      Object: {fileID: 11400000, guid: 4a896ad1b1150ca42af37d33a5228169, type: 2}
+      TypeAssemblyQualifiedName: Asteroids.ECS.Services.EntityFactoryServiceParameters,
+        Asteroids.ECS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.ECS.IEntityUniqueIdGeneratorService,
+        Asteroids.Services.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.IAssetService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.IRandomService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.Generator.IAsteroidGeneratorService,
+        Asteroids.Services.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.ECS.IEntityFactoryService,
+        Asteroids.Services.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.ECS.Services.EntityWorldService, Asteroids.ECS, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    ConstructorParameters:
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.ECS.IEntityFactoryService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.ECS.IEntityWorldService,
+        Asteroids.Services.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.ECS.Services.EntitySystemService, Asteroids.ECS, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    ConstructorParameters:
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.ECS.IEntityWorldService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.IUpdateService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.ITimeService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.ECS.IEntitySystemService,
+        Asteroids.Services.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
+  - TypeName: Asteroids.Services.AsteroidsRulesService, Asteroids.Services.Implementations,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ConstructorParameters:
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.IViewportService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Type: 1
+      Object: {fileID: 0}
+      TypeAssemblyQualifiedName: Asteroids.Services.IRandomService, Asteroids.Services.Interfaces,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    ImplementedInterfaces:
+    - InterfaceAssemblyQualifiedName: Asteroids.Services.IAsteroidsRulesService,
+        Asteroids.Services.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Register: 1
+    ValidationState: 7
